@@ -277,12 +277,12 @@
           {
             "annotation": [
               {
-                "displayName": "Filesystem % free space",
+                "displayName": "Filesystem % free space on /",
                 "locale": "en-us"
               }
             ],
             "class": "filesystem",
-            "condition": 'Name="/dev/sda2"',
+            "condition": "Name=\"/\"",
             "counter": "percentfreespace",
             "counterSpecifier": "/builtin/filesystem/percentfreespace",
             "type": "builtin",
@@ -291,12 +291,12 @@
           {
             "annotation": [
               {
-                "displayName": "Filesystem % used space",
+                "displayName": "Filesystem % used space on /",
                 "locale": "en-us"
               }
             ],
             "class": "filesystem",
-            "condition": 'Name="/dev/sda2"',
+            "condition": "Name=\"/\"",
             "counter": "percentusedspace",
             "counterSpecifier": "/builtin/filesystem/percentusedspace",
             "type": "builtin",
@@ -305,12 +305,12 @@
           {
             "annotation": [
               {
-                "displayName": "Filesystem used space",
+                "displayName": "Filesystem used space on /",
                 "locale": "en-us"
               }
             ],
             "class": "filesystem",
-            "condition": 'Name="/dev/sda2"',
+            "condition": "Name=\"/\"",
             "counter": "usedspace",
             "counterSpecifier": "/builtin/filesystem/usedspace",
             "type": "builtin",
@@ -333,12 +333,12 @@
           {
             "annotation": [
               {
-                "displayName": "Filesystem free space",
+                "displayName": "Filesystem free space on /",
                 "locale": "en-us"
               }
             ],
             "class": "filesystem",
-            "condition": 'Name="/dev/sda2"',
+            "condition": "Name=\"/\"",
             "counter": "freespace",
             "counterSpecifier": "/builtin/filesystem/freespace",
             "type": "builtin",
