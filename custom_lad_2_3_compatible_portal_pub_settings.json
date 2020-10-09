@@ -277,34 +277,6 @@
           {
             "annotation": [
               {
-                "displayName": "Filesystem % free space on /",
-                "locale": "en-us"
-              }
-            ],
-            "class": "filesystem",
-            "condition": "Name=\"/\"",
-            "counter": "percentfreespace",
-            "counterSpecifier": "/builtin/filesystem/percentfreespace",
-            "type": "builtin",
-            "unit": "Percent"
-          },
-          {
-            "annotation": [
-              {
-                "displayName": "Filesystem % used space on /",
-                "locale": "en-us"
-              }
-            ],
-            "class": "filesystem",
-            "condition": "Name=\"/\"",
-            "counter": "percentusedspace",
-            "counterSpecifier": "/builtin/filesystem/percentusedspace",
-            "type": "builtin",
-            "unit": "Percent"
-          },
-          {
-            "annotation": [
-              {
                 "displayName": "Filesystem used space on /",
                 "locale": "en-us"
               }
@@ -329,20 +301,6 @@
             "counterSpecifier": "/builtin/filesystem/bytesreadpersecond",
             "type": "builtin",
             "unit": "CountPerSecond"
-          },
-          {
-            "annotation": [
-              {
-                "displayName": "Filesystem free space on /",
-                "locale": "en-us"
-              }
-            ],
-            "class": "filesystem",
-            "condition": "Name=\"/\"",
-            "counter": "freespace",
-            "counterSpecifier": "/builtin/filesystem/freespace",
-            "type": "builtin",
-            "unit": "Bytes"
           },
           {
             "annotation": [
