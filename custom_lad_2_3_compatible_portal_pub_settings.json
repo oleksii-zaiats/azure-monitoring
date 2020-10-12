@@ -282,7 +282,7 @@
               }
             ],
             "class": "filesystem",
-            "condition": 'Name=\"/\"',
+            "condition": "Name=\"/\"",
             "counter": "usedspace",
             "counterSpecifier": "/builtin/filesystem/usedspace",
             "type": "builtin",
